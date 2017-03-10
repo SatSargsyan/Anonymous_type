@@ -15,4 +15,6 @@ Console.WriteLine(v.Amount + v.Message);
 
 Anonymous types typically are used in the<a href=https://msdn.microsoft.com/en-us/library/bb384087.aspx> select clause</a> of a query expression to return a subset of the properties from each object in the source sequence. For more information about queries, see LINQ Query Expressions.
 
+
+
 var items1=items.where(p=>p.Name
